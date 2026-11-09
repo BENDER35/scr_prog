@@ -4,8 +4,8 @@
 #            7-Zip, Adobe Acrobat Reader, VLC Media Player, K-Lite Codec Pack Mega,
 #            topgrade, atube Catcher, Zoom, Teams, LibreOffice,
 #            Mozilla Thunderbird, Xonotic, SuperTuxKart, KeePassXC,
-#            BlueStacks, Docker, JDownloader, Telegram, Audacity,
-#            DroidCam, Spotify, 86Box, PCem, VirtualBox, DOSBox-X, DOSBox,
+#            BlueStacks, Docker, JDownloader, Telegram, Audacity, Calibre,
+#            FileZilla, DroidCam, Spotify, 86Box, PCem, VirtualBox, DOSBox-X, DOSBox,
 #            Dolphin
 
 # Directiva de permisos: Permite la ejecución de scripts sin restricciones
@@ -47,7 +47,9 @@ $apps = @(
     "Oracle.VirtualBox",           # VirtualBox
     "jPDosBox-X.DOSBox-X",         # DOSBox-X
     "DOSBox.DOSBox",               # DOSBox
-    "DolphinEmulator.Dolphin"      # Dolphin
+    "DolphinEmulator.Dolphin",       # Dolphin
+    "Calibre.Calibre",               # Calibre (eBook manager)
+    "FileZilla.FileZilla"            # FileZilla (FTP client)
 )
 
 Write-Host "==========================================" -ForegroundColor Cyan
